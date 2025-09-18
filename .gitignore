@@ -1,0 +1,38 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# production
+/dist
+
+# misc
+.DS_Store
+.env.local
+.env.*.local
+
+# local env files
+.vscode/
+*.log
+
+# npm logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Vite cache
+/.vite
+
+# Mac system files
+.DS_Store
+
+# Tailwind cache (if any)
+.tailwindcache
+
+# Optional: IDE folders
+.idea
+*.sublime-workspace
+*.sublime-project
+
+# Testing coverage
+coverage/
