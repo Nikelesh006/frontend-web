@@ -1,8 +1,9 @@
 export default function Hero({ onGetStarted }) {
   return (
     <section className="px-6 py-16 text-center">
-      <h1 className="text-4xl font-bold tracking-wide">Price Page</h1>
-      <p className="mt-3 text-white/90">Pick a plan, switch anytime — no hidden fees.</p>
+      <h1 className="text-4xl font-bold tracking-wide">Pricing Page</h1>
+      <p className="mt-3 text-white/90">(The Content in this page is purely for demonstration.)
+      <br />Pick a plan, switch anytime — no hidden fees.</p>
       <div className="mt-6 flex justify-center gap-3">
         <button
           onClick={onGetStarted}
